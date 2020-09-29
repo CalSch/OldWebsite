@@ -44,3 +44,7 @@
 	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
+.shadow-pop-tr {
+	background-color: #aaaaaa;
+	padding: 2px;
+}
