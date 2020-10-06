@@ -8,7 +8,7 @@
     const fs = require('fs')
     let data = "Hello Hello This is testing!"
     fs.writeFile('Output.txt', data, (err) => { 
-     if (err) alert(str(err)); 
+     if (err) throw err; 
     })
    }
   </script>
