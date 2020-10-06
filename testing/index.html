@@ -3,6 +3,15 @@
  <head>
   <title>Testing</title>
   <link rel="stylesheet" href="style.css">
+  <script>
+   fuction write(){
+    const fs = require('fs')
+    let data = "Hello Hello This is testing!"
+    fs.writeFile('Output.txt', data, (err) => { 
+     if (err) alert(str(err)); 
+    })
+   }
+  </script>
  </head>
  <body>
   <p class="shadow-pop-tr">This is for testing</p>
