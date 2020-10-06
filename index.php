@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <title>Cal's Website!</title>
 <meta charset="UTF-8">
