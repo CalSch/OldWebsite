@@ -8,7 +8,7 @@ let h=`<html>
 </html>`;
 while (h.search("<") != -1 or h.search(">") != -1) {
   h=h.replace("<", "&lt;");
-  h=h.replace(">", "&rt;");
+  h=h.replace(">", "&gt;");
 }
 let a=document.createElement("textarea");
 a.rows=30;
