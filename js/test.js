@@ -6,7 +6,7 @@ let h=`<html>
     `+document.body.innerHTML+`
   </body>
 </html>`;
-while (h.search("<") != -1 || h.search(">") != -1) {
+while (h.search("<") != -1 or h.search(">") != -1) {
   h=h.replace("<", "&lt;");
   h=h.replace(">", "&rt;");
 }
