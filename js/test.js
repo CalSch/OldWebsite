@@ -11,11 +11,20 @@ while (h.search("<") != -1 || h.search(">") != -1) {
   h=h.replace("<", "&lt;");
   h=h.replace(">", "&gt;");
 }
-let a=document.createElement("textarea");
-a.rows=30;
-a.cols=60;
-a.innerHTML=h;
-//a.id.add("ie-box");
-document.body.appendChild(a);
+let ie=document.createElement("div");
+ie.id="cal-ie";
+let box=document.createElement("textarea");
+box.rows=30;
+box.cols=60;
+box.innerHTML=h;
+box.id="cal-ie-box";
+let updateBttn=document.createElement("button");
+updateBttn.backgroundColor="dodgerblue";
+updateBttn.color="white";
+updateBttn.borderStyle="groove";
+updateBttn.borderColor="dodgerblue";
+ie.appendChild(box);
+ie.appendChild(updateBttn);
+document.body.appendChild(ie);
 
 alert("Done!");
