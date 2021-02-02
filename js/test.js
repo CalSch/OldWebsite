@@ -11,14 +11,14 @@ while (h.search("<") != -1 || h.search(">") != -1) {
   h=h.replace("<", "&lt;");
   h=h.replace(">", "&gt;");
 }
-let ie=document.createElement("div");
+var ie=document.createElement("div");
 ie.id="cal-ie";
-let box=document.createElement("textarea");
+var box=document.createElement("textarea");
 box.rows=30;
 box.cols=60;
 box.innerHTML=h;
 box.id="cal-ie-box";
-let updateBttn=document.createElement("button");
+var updateBttn=document.createElement("button");
 updateBttn.innerText="Update";
 updateBttn.id="cal-ie-update";
 updateBttn.backgroundColor="dodgerblue";
