@@ -1,4 +1,5 @@
-alert("Starting");
+alert("Starting"); //To test if there's a syntax error, if there is it wont run
+
 let h=`<html>
   <head>
     `+document.head.innerHTML+`
@@ -11,22 +12,24 @@ while (h.search("<") != -1 || h.search(">") != -1) {
   h=h.replace("<", "&lt;");
   h=h.replace(">", "&gt;");
 }
-var ie=document.createElement("div");
+var ie=document.createElement("div"); //Div that contains the textarea and update button
 ie.id="cal-ie";
-var box=document.createElement("textarea");
+
+var box=document.createElement("textarea"); //Textarea with the HTML
 box.rows=30;
 box.cols=60;
 box.innerHTML=h;
 box.id="cal-ie-box";
-var updateBttn=document.createElement("button");
+
+var updateBttn=document.createElement("button"); //Update button
 updateBttn.innerText="Update";
 updateBttn.id="cal-ie-update";
 updateBttn.backgroundColor="dodgerblue";
 updateBttn.color="white";
-/*
+
 updateBttn.borderStyle="groove";
 updateBttn.borderColor="dodgerblue";
-*/
+
 ie.appendChild(box);
 ie.appendChild(updateBttn);
 document.body.appendChild(ie);
