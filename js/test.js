@@ -23,8 +23,10 @@ updateBttn.innerText="Update";
 updateBttn.id="cal-ie-update";
 updateBttn.backgroundColor="dodgerblue";
 updateBttn.color="white";
+/*
 updateBttn.borderStyle="groove";
 updateBttn.borderColor="dodgerblue";
+*/
 ie.appendChild(box);
 ie.appendChild(updateBttn);
 document.body.appendChild(ie);
