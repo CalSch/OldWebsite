@@ -1,7 +1,5 @@
 try {
   function init() {
-    alert("Starting"); //To test if there's a syntax error, if there is it wont run
-  hhrg
     let h=`<html>
       <head>
         `+document.head.innerHTML+`
