@@ -27,8 +27,9 @@ updateBttn.id="cal-ie-update";
 updateBttn.style.backgroundColor="dodgerblue";
 updateBttn.style.color="white";
 
-updateBttn.style.borderStyle="groove";
+updateBttn.style.borderStyle="solid";
 updateBttn.style.borderColor="dodgerblue";
+updateBttn.style.borderRadius="5px";
 
 ie.appendChild(box);
 ie.appendChild(updateBttn);
