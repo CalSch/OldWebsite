@@ -24,9 +24,11 @@ box.id="cal-ie-box";
 var updateBttn=document.createElement("button"); //Update button
 updateBttn.innerText="Update";
 updateBttn.id="cal-ie-update";
+//TODO add an update function so the Update Button actually does something
+
+//Styling
 updateBttn.style.backgroundColor="dodgerblue";
 updateBttn.style.color="white";
-
 updateBttn.style.borderStyle="solid";
 updateBttn.style.borderColor="dodgerblue";
 updateBttn.style.borderRadius="5px";
