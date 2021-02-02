@@ -24,11 +24,11 @@ box.id="cal-ie-box";
 var updateBttn=document.createElement("button"); //Update button
 updateBttn.innerText="Update";
 updateBttn.id="cal-ie-update";
-updateBttn.backgroundColor="dodgerblue";
-updateBttn.color="white";
+updateBttn.style.backgroundColor="dodgerblue";
+updateBttn.style.color="white";
 
-updateBttn.borderStyle="groove";
-updateBttn.borderColor="dodgerblue";
+updateBttn.style.borderStyle="groove";
+updateBttn.style.borderColor="dodgerblue";
 
 ie.appendChild(box);
 ie.appendChild(updateBttn);
