@@ -19,6 +19,7 @@ box.cols=60;
 box.innerHTML=h;
 box.id="cal-ie-box";
 let updateBttn=document.createElement("button");
+updateBttn.innerText="Update";
 updateBttn.id="cal-ie-update";
 updateBttn.backgroundColor="dodgerblue";
 updateBttn.color="white";
