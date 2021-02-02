@@ -1,4 +1,12 @@
-let h=document.innerHTML;
+alert("Starting");
+let h=`<html>
+  <head>
+    `+document.head.innerHTML+`
+  </head>
+  <body>
+    `+document.body.innerHTML+`
+  </body>
+</html>`;
 while (h.search("<") != -1 || h.search(">") != -1) {
   h=h.replace("<", "&lt;");
   h=h.replace(">", "&gt;");
