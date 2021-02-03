@@ -1,13 +1,13 @@
 try {
   function init() {
     let h=`<html>
-      <head>
-        `+document.head.innerHTML+`
-      </head>
-      <body>
-        `+document.body.innerHTML+`
-      </body>
-    </html>`;
+  <head>
+    `+document.head.innerHTML+`
+  </head>
+  <body>
+    `+document.body.innerHTML+`
+  </body>
+</html>`;
     while (h.search("<") != -1 || h.search(">") != -1) {
       h=h.replace("<", "&lt;");
       h=h.replace(">", "&gt;");
