@@ -2,7 +2,7 @@ alert("No syntax error!");
 try {
 
 	function testJQ(){
-		if (typeof($) === undefinied){
+		if (typeof($) === undefined){
 			alert("Could not find JQuery");
 		} else {
 			alert("JQuery found!");
