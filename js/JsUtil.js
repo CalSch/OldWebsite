@@ -9,7 +9,7 @@ try {
 		}
 	}
 	
-	var choice=prompt(`Welcome to the JavaScript Util!
+	var choice=prompt(`Welcome to the JavaScript Util! v0.2
 1: Test for JQuery`);
 	switch (choice){
 		case "1":
